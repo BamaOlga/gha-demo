@@ -1,0 +1,11 @@
+name: Another workflow
+on:
+    Workflow_dispatch:
+
+jobs:
+    build:
+        runs-on: windows-latest
+        steps:
+            - name: Another workflow action step
+              run: echo "this is another workflow!"
+            

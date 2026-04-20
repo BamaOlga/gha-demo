@@ -1,6 +1,5 @@
-name: Another Workflow
-on:
-  workflow_dispatch:
+name: Hello workflow
+on: [push]
 
 jobs:
   build:
