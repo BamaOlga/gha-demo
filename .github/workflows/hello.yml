@@ -16,5 +16,21 @@ jobs:
           uname -a
           echo "Done running linux commands!"
 
+      - name: Check which tools installed in this runner
+        run: 
+          echo "checking which tools are installed in this runner..."
+          which node
+          node --version
+          which npm
+          npm --version
+          which python
+          python --version
+          which java
+          java --version
+          terraform --version
+          aws --version
+          echo "Done checking tools!"
+
+
 
   
