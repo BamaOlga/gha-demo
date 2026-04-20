@@ -1,5 +1,6 @@
-name: Hello world Workflow
-on: [push]
+name: Another Workflow
+on:
+  workflow_dispatch:
 
 jobs:
   build:
