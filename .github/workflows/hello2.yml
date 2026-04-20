@@ -3,8 +3,8 @@ on:
     push:
         branches:
           - main
-    Workflow-dispatch:
-        
+          - Workflow-dispatch:
+
 
 jobs:
     build:
