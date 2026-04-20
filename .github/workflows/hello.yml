@@ -6,6 +6,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Hello world action step
-        run: echo "Hello world"
+        run: echo "Hello world!"
+
+      - name: Run some linux commands
+        run: 
+          echo "Running some linux commands..."
+          ls -la
+          pwd
+          uname -a
+          echo "Done running linux commands!"
+
 
   
